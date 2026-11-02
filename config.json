@@ -1,0 +1,513 @@
+{
+ "feed": "https://anchor.fm/s/6f9d188/podcast/rss",
+ "guests": [
+  {
+   "name": "Matt Miller",
+   "role": "Author and speaker, Ditch That Textbook",
+   "eps": [
+    20,
+    21,
+    22,
+    40,
+    54,
+    66,
+    67
+   ],
+   "feature": true
+  },
+  {
+   "name": "Will Jackson",
+   "role": "Founder of Mote",
+   "eps": [
+    36,
+    60
+   ]
+  },
+  {
+   "name": "Dave Burgess",
+   "role": "Teach Like a PIRATE",
+   "eps": [
+    43
+   ]
+  },
+  {
+   "name": "Kasey Bell",
+   "role": "Shake Up Learning",
+   "eps": [
+    44
+   ]
+  },
+  {
+   "name": "Eric Curts",
+   "role": "Ctrl Alt Achieve",
+   "eps": [
+    46
+   ]
+  },
+  {
+   "name": "Dr. Monica Burns",
+   "role": "Class Tech Tips",
+   "eps": [
+    29
+   ]
+  },
+  {
+   "name": "Jake Miller",
+   "role": "Teacher, author, and podcaster",
+   "eps": [
+    34
+   ]
+  },
+  {
+   "name": "Nate Ridgway",
+   "role": "Author, Breaking the Blockbuster Model",
+   "eps": [
+    39
+   ]
+  },
+  {
+   "name": "Jon Redeker",
+   "role": "Misfit Educator",
+   "eps": [
+    31,
+    37
+   ]
+  }
+ ],
+ "yt": {
+  "8": "3jDRJtIbv5g",
+  "9": "rnBFuDNEyek",
+  "33": "nox0WhCYtyw",
+  "34": "a3y6aPM6mzc",
+  "36": "5JtyEFznFwo",
+  "37": "gja9dcoBmr0",
+  "39": "VIvqLmUnOZ4",
+  "40": "HP75fet86jY",
+  "42": "qJ1_eLigs-g",
+  "49": "zeb-Pvc_uas",
+  "50": "Ftd6HW2J0AQ",
+  "54": "t74bwGoR2so",
+  "55": "2L13LkWCcL0",
+  "56": "y_Wrx7GzqyM",
+  "57": "kgHOz1ev-OU",
+  "58": "qBXgf0zqM-s",
+  "59": "lkPmPe9eH3Y",
+  "60": "2595Oy-Buk0",
+  "61": "S3YsI_tWIPQ",
+  "62": "dJyFIMVdWfo",
+  "63": "rrInCC405o4",
+  "64": "zfDidY7IXaY",
+  "65": "F9Wsxd1Mqak",
+  "66": "pyboQVHJA-E",
+  "67": "v_Z-71l5FYw",
+  "68": "GB7pEke1H0c",
+  "69": "reNLSESML0s",
+  "70": "3ZwU9Rj2M-o",
+  "71": "2RQtXoskd1s",
+  "72": "qqVd_t00Eo0",
+  "73": "O_Vrjh_z-xQ",
+  "75": "R4--g8OInVw",
+  "76": "XycFvZezgn4"
+ },
+ "slugs": {
+  "1": "episode-1-google-classroom-tips-and-tricks-dont-make-it-overwhelming",
+  "2": "episode-2-sel-knowing-your-why-to-make-your-what-more-impactful-1082",
+  "3": "episode-3-continuous-improvement",
+  "4": "episodes-4-the-struggle-is-real",
+  "5": "episode-5-wakelet-ar-ready-for-primetime",
+  "6": "episode-6-the-power-of-podcasting-audio",
+  "7": "episode-7-pbl-not-pb-j",
+  "10": "episode-10-episode-10-efficient-and-effective-in-2022",
+  "11": "episode-11-blockbuster-or-netflix",
+  "12": "episode-12-video-and-the-radio-star",
+  "13": "episode-13-sketch-sketch-it-up",
+  "14": "episode-14-the-mote-boat",
+  "15": "episode-15-tool-time-school-edition",
+  "16": "episode-16-ch-ch-ch-choices",
+  "17": "episode-17-wordle-craze-samr",
+  "18": "episode-18-choices-thats-the-way-it-is",
+  "19": "episode-19-vinyl-8-tracks-canva",
+  "20": "episode-20-maverick-educator-matt-miller",
+  "21": "episode-21-matt-miller-part-deux-tech-like-a-pirate",
+  "22": "episode-22-matt-miller-efficenteach",
+  "23": "episode-23-math-tools-more",
+  "24": "episode-24-curve-ball",
+  "25": "episode-25-drums-please",
+  "26": "episode-26-guess-whos-back",
+  "27": "episode-27-this-that-cutting-the-cord",
+  "28": "episode-28-not-for-techs-sake",
+  "29": "episode-29-class-tech-tips-with-dr-monica-burns",
+  "30": "episode-30-3d-printing-mini-stem-kits-with-boxlight-special-guest",
+  "31": "episode-31-misfit-educator-jon-redeker",
+  "32": "episode-32-fbi-john",
+  "35": "episode-35-inner-vs-outer-scorecard",
+  "38": "episode-38-jump-on-the-wakelet-wave",
+  "41": "episode-41-efficiency-in-education",
+  "43": "episode-43-teach-like-a-pirate-with-dave-burgess",
+  "44": "episode-44-shake-up-learning-with-kasey-bell",
+  "45": "episode-45-chat-gpt-bing-bard-google-updates",
+  "46": "episode-46-ctrl-alt-achieve-with-eric-curts",
+  "47": "episode-47-version-2-0-how-ai-is-impacting-education",
+  "48": "episode-48-back-better-than-ever",
+  "51": "episode-51-hallucinate-with-exceptional-confidence-microsofts-dr-mic",
+  "52": "episode-52-dont-be-pawned"
+ },
+ "legacy": [
+  {
+   "n": 1,
+   "title": "Google Classroom Tips and Tricks: Don't Make It Overwhelming",
+   "type": "news",
+   "link": null
+  },
+  {
+   "n": 2,
+   "title": "SEL: Knowing Your Why to Make Your What More Impactful",
+   "type": "news",
+   "link": null
+  },
+  {
+   "n": 3,
+   "title": "Continuous Improvement",
+   "type": "news",
+   "link": null
+  },
+  {
+   "n": 4,
+   "title": "The Struggle Is Real",
+   "type": "news",
+   "link": null
+  },
+  {
+   "n": 5,
+   "title": "Wakelet, AR & Ready for Primetime!",
+   "type": "news",
+   "link": null
+  },
+  {
+   "n": 6,
+   "title": "The Power of Podcasting & Audio",
+   "type": "news",
+   "link": null
+  },
+  {
+   "n": 0,
+   "title": "Live From NYSCATE 2021",
+   "type": "live",
+   "link": "https://sites.google.com/wcsdny.org/edventuresintech/episodes/season-1/bonus-episodes-live-from-nyscate-2021"
+  },
+  {
+   "n": 7,
+   "title": "PBL, Not PB & J!",
+   "type": "news",
+   "link": null
+  },
+  {
+   "n": 8,
+   "title": "Wakelet Part Deux",
+   "type": "news",
+   "link": null
+  },
+  {
+   "n": 9,
+   "title": "Wrapping Up 2021 & Mini-PBL!",
+   "type": "news",
+   "link": null
+  },
+  {
+   "n": 10,
+   "title": "Efficient and Effective in 2022",
+   "type": "news",
+   "link": null
+  },
+  {
+   "n": 11,
+   "title": "Blockbuster or Netflix?",
+   "type": "news",
+   "link": null
+  },
+  {
+   "n": 12,
+   "title": "Video and the Radio Star",
+   "type": "news",
+   "link": null
+  },
+  {
+   "n": 13,
+   "title": "Sketch, Sketch It Up!",
+   "type": "news",
+   "link": null
+  },
+  {
+   "n": 14,
+   "title": "The Mote Boat",
+   "type": "news",
+   "link": null
+  },
+  {
+   "n": 15,
+   "title": "Tool Time School Edition",
+   "type": "news",
+   "link": null
+  },
+  {
+   "n": 16,
+   "title": "Ch, Ch, Ch, Choices",
+   "type": "news",
+   "link": null
+  },
+  {
+   "n": 17,
+   "title": "Wordle Craze & SAMR",
+   "type": "news",
+   "link": null
+  },
+  {
+   "n": 18,
+   "title": "Choices: That's The Way It Is",
+   "type": "news",
+   "link": null
+  },
+  {
+   "n": 19,
+   "title": "Vinyl, 8-Tracks & Canva",
+   "type": "news",
+   "link": null
+  },
+  {
+   "n": 20,
+   "title": "Maverick Educator, Matt Miller",
+   "type": "interview",
+   "link": null
+  },
+  {
+   "n": 21,
+   "title": "Matt Miller, Part Deux: Tech Like a Pirate",
+   "type": "interview",
+   "link": null
+  },
+  {
+   "n": 22,
+   "title": "Matt Miller, EfficienTEACH",
+   "type": "interview",
+   "link": null
+  },
+  {
+   "n": 23,
+   "title": "Math Tools & More!",
+   "type": "news",
+   "link": null
+  },
+  {
+   "n": 24,
+   "title": "Curve Ball",
+   "type": "news",
+   "link": null
+  },
+  {
+   "n": 25,
+   "title": "Drums Please!",
+   "type": "news",
+   "link": null
+  },
+  {
+   "n": 26,
+   "title": "Guess Who's Back...",
+   "type": "news",
+   "link": null
+  },
+  {
+   "n": 27,
+   "title": "This, That & Cutting the Cord!",
+   "type": "news",
+   "link": null
+  },
+  {
+   "n": 28,
+   "title": "Not For Tech's Sake!",
+   "type": "news",
+   "link": null
+  },
+  {
+   "n": 0,
+   "title": "Live at NYSCATE 2022",
+   "type": "live",
+   "link": "https://sites.google.com/wcsdny.org/edventuresintech/episodes/season-2/bonus-episode-live-at-nyscate-2022"
+  },
+  {
+   "n": 29,
+   "title": "Class Tech Tips with Dr. Monica Burns",
+   "type": "interview",
+   "link": null
+  },
+  {
+   "n": 30,
+   "title": "3D Printing & Mini STEM Kits with Boxlight & Special Guest",
+   "type": "live",
+   "link": null
+  },
+  {
+   "n": 31,
+   "title": "Misfit Educator Jon Redeker",
+   "type": "interview",
+   "link": null
+  },
+  {
+   "n": 32,
+   "title": "FBI John",
+   "type": "interview",
+   "link": null
+  },
+  {
+   "n": 33,
+   "title": "Alexa, Google, Siri: Nope, It's ChatGPT",
+   "type": "news",
+   "link": null
+  },
+  {
+   "n": 34,
+   "title": "GIF Master Jake Miller",
+   "type": "interview",
+   "link": null
+  },
+  {
+   "n": 35,
+   "title": "Inner vs Outer Scorecard",
+   "type": "news",
+   "link": null
+  },
+  {
+   "n": 36,
+   "title": "Will Jackson, CEO & Co-Founder of Mote & Conker",
+   "type": "interview",
+   "link": null
+  },
+  {
+   "n": 37,
+   "title": "ChatGPT: How AI Could Potentially Transform Education?",
+   "type": "news",
+   "link": null
+  },
+  {
+   "n": 38,
+   "title": "Jump on the Wakelet Wave",
+   "type": "news",
+   "link": null
+  },
+  {
+   "n": 39,
+   "title": "Breaking the Blockbuster Model with Nate Ridgway",
+   "type": "interview",
+   "link": null
+  },
+  {
+   "n": 40,
+   "title": "Don't Ditch That AI with Matt Miller",
+   "type": "interview",
+   "link": null
+  },
+  {
+   "n": 41,
+   "title": "Efficiency in Education",
+   "type": "news",
+   "link": null
+  },
+  {
+   "n": 42,
+   "title": "Spark Your Creativity with Canva",
+   "type": "news",
+   "link": null
+  },
+  {
+   "n": 43,
+   "title": "Teach Like a PIRATE with Dave Burgess!",
+   "type": "interview",
+   "link": null
+  },
+  {
+   "n": 44,
+   "title": "Shake Up Learning with Kasey Bell",
+   "type": "interview",
+   "link": null
+  },
+  {
+   "n": 45,
+   "title": "ChatGPT, Bing, Bard & Google Updates",
+   "type": "news",
+   "link": null
+  },
+  {
+   "n": 46,
+   "title": "Ctrl, Alt, Achieve with Eric Curts",
+   "type": "interview",
+   "link": null
+  },
+  {
+   "n": 47,
+   "title": "Version 2.0: How AI Is Impacting Education",
+   "type": "news",
+   "link": null
+  },
+  {
+   "n": 48,
+   "title": "Back & Better Than Ever!",
+   "type": "news",
+   "link": null
+  },
+  {
+   "n": 49,
+   "title": "Buckle Up for the AI Ride",
+   "type": "news",
+   "link": null
+  },
+  {
+   "n": 50,
+   "title": "Mission Possible, Challenge Accepted",
+   "type": "live",
+   "link": null
+  },
+  {
+   "n": 51,
+   "title": "Hallucinate with Exceptional Confidence",
+   "type": "interview",
+   "link": null
+  },
+  {
+   "n": 52,
+   "title": "Don't Be Pawned!",
+   "type": "news",
+   "link": null
+  }
+ ],
+ "highlights": {
+  "76": [
+   "Gemini Notebook study tools and teacher insight summaries",
+   "Gemini skills, Gmail Live, and file editing",
+   "AI watermarking and choosing AI lesson tools"
+  ]
+ },
+ "live_words": [
+  "live",
+  "nyscate",
+  "dlny",
+  "deeper learning",
+  "conference"
+ ],
+ "type_overrides": {
+  "55": "live",
+  "56": "live",
+  "57": "live",
+  "58": "live",
+  "59": "live",
+  "61": "live",
+  "62": "live",
+  "63": "live",
+  "64": "live",
+  "68": "live",
+  "69": "live",
+  "70": "live",
+  "54": "interview",
+  "60": "interview",
+  "66": "interview",
+  "67": "interview"
+ }
+}
