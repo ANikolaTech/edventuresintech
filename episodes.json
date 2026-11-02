@@ -31,14 +31,14 @@
   },
   {
    "n": 72,
-   "title": "Pick Your Player: ChatGPT's Logic vs. Gemini's Ecosystem",
+   "title": "Pick Your Player: ChatGPT’s Logic vs. Gemini’s Ecosystem",
    "type": "news",
    "date": "Mar 26, 2026",
    "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode-72---Pick-Your-Player-ChatGPTs-Logic-vs--Geminis-Ecosystem-e3h0sli"
   },
   {
    "n": 71,
-   "title": "Stop What You're Doing: You Need NotebookLM",
+   "title": "Stop What You’re Doing—You Need NotebookLM",
    "type": "news",
    "date": "Mar 18, 2026",
    "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode--71---Stop-What-Youre-DoingYou-Need-NotebookLM-e3gkq7o"
@@ -66,7 +66,7 @@
   },
   {
    "n": 67,
-   "title": "Matt Miller Part 2: Accelerating AI Literacy for All Learners",
+   "title": "Matt Miller — Part 2: Accelerating AI Literacy for All Learners",
    "type": "interview",
    "date": "Nov 22, 2025",
    "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode--67-Matt-Miller--Part-2-Accelerating-AI-Literacy-for-All-Learners-e3b9vcl"
@@ -87,14 +87,14 @@
   },
   {
    "n": 64,
-   "title": "DLNY Conference Day 2 Afternoon",
+   "title": "DLNY Conference Day #2 Afternoon",
    "type": "live",
    "date": "Jul 18, 2025",
    "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode--64---DLNY-Conference-Day-2-Afternoon-e35mvpa"
   },
   {
    "n": 63,
-   "title": "DLNY Conference Day 2 Morning!",
+   "title": "DLNY Conference Day #2 Morning!",
    "type": "live",
    "date": "Jul 16, 2025",
    "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode--63---DLNY-Conference-Day-2-Morning-e35kmbd"
@@ -122,21 +122,21 @@
   },
   {
    "n": 59,
-   "title": "LG & CreateBoard: Live at NYSCATE 2024",
+   "title": "LG & CreateBoard - Live at NYSCATE 2024",
    "type": "live",
    "date": "Mar 11, 2025",
    "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode--59---LG--CreateBoard---Live-at-NYSCATE-2024-e2rgbft"
   },
   {
    "n": 58,
-   "title": "Luxor Workspaces & Liberty AV: Live at NYSCATE 2024",
+   "title": "Luxor Workspaces & Liberty AV - Live at NYSCATE 2024",
    "type": "live",
    "date": "Nov 25, 2024",
    "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode--58---Luxor-Workspaces--Liberty-AV---Live-at-NYSCATE-2024-e2rgasi"
   },
   {
    "n": 57,
-   "title": "NYSDLC: Live at NYSCATE 2024",
+   "title": "NYSDLC - Live at NYSCATE 2024",
    "type": "live",
    "date": "Nov 25, 2024",
    "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode--57---NYSDLC---Live-at-NYSCATE-2024-e2rgan8"
@@ -150,17 +150,430 @@
   },
   {
    "n": 55,
-   "title": "Newline & Merlyn: Tech Update at NYSCATE 2024",
+   "title": "Newline & Merlyn - Tech Update at NYSCATE 2024",
    "type": "live",
    "date": "Nov 25, 2024",
    "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode--55---Newline--Merlyn---Tech-Update-at-NYSCATE-2024-e2rfhj3"
   },
   {
    "n": 54,
-   "title": "Matt Miller: AI, Enhancement Instead of Replacement",
+   "title": "Matt Miller - AI - Enhancement Instead of Replacement",
    "type": "interview",
    "date": "Nov 23, 2024",
    "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode--54---Matt-Miller---AI---Enhancement-Instead-of-Replacement-e2rd6k0"
+  },
+  {
+   "n": 53,
+   "title": "FEAR or FOMO? Which Defines You?",
+   "type": "news",
+   "date": "Nov 21, 2024",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode--53---FEAR-or-FOMO--Which-Defines-You-e2raflh"
+  },
+  {
+   "n": 52,
+   "title": "Don't Be Pawned!",
+   "type": "news",
+   "date": "Nov 30, 2023",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode--52---Dont-Be-Pawned-e2cfgjv"
+  },
+  {
+   "n": 51,
+   "title": "Hallucinate with Exceptional Confidence - Microsoft's Dr. Michael Jabbour",
+   "type": "news",
+   "date": "Nov 21, 2023",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode--51---Hallucinate-with-Exceptional-Confidence---Microsofts-Dr--Michael-Jabbour-e2c7dcf"
+  },
+  {
+   "n": 50,
+   "title": "Mission Possible, Challenge Accepted",
+   "type": "news",
+   "date": "Nov 20, 2023",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode-50---Mission-Possible--Challenge-Accepted-e2c6o1p"
+  },
+  {
+   "n": 49,
+   "title": "Buckle Up for the AI Ride!",
+   "type": "news",
+   "date": "Nov 16, 2023",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode--49---Buckle-Up-for-the-AI-Ride-e2c1a48"
+  },
+  {
+   "n": 48,
+   "title": "Back & Better Than Ever!",
+   "type": "news",
+   "date": "Nov 9, 2023",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode-48---Back--Better-Than-Ever-e2bnevg"
+  },
+  {
+   "n": 47,
+   "title": "Version 2.0 - How AI Is Impacting Education",
+   "type": "news",
+   "date": "Apr 20, 2023",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode--47---Version-2-0---How-AI-Is-Impacting-Education-e22jl26"
+  },
+  {
+   "n": 46,
+   "title": "Ctrl, Alt, Achieve with Eric Curts!",
+   "type": "interview",
+   "date": "Apr 13, 2023",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode--46---Ctrl--Alt--Achieve-with-Eric-Curts-e22abcn"
+  },
+  {
+   "n": 45,
+   "title": "Chat GPT, Bing, Bard & Google Updates",
+   "type": "news",
+   "date": "Mar 31, 2023",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode-45---Chat-GPT--Bing--Bard--Google-Updates-e21fgti"
+  },
+  {
+   "n": 44,
+   "title": "Shake Up Learning with Kasey Bell",
+   "type": "interview",
+   "date": "Mar 23, 2023",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode--44---Shake-Up-Learning-with-Kasey-Bell-e20iee3"
+  },
+  {
+   "n": 43,
+   "title": "Teach Like a PIRATE with Dave Burgess!",
+   "type": "interview",
+   "date": "Mar 16, 2023",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode--43---Teach-Like-a-PIRATE-with-Dave-Burgess-e206e6a"
+  },
+  {
+   "n": 42,
+   "title": "Spark Your Creativity with Canva",
+   "type": "news",
+   "date": "Mar 9, 2023",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode-42---Spark-Your-Creativity-with-Canva-e200kih"
+  },
+  {
+   "n": 41,
+   "title": "Efficiency in Education",
+   "type": "news",
+   "date": "Feb 23, 2023",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode-41---Efficiency-in-Education-e1ve9sc"
+  },
+  {
+   "n": 40,
+   "title": "Don't DITCH That AI with Matt Miller",
+   "type": "interview",
+   "date": "Feb 15, 2023",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode-40---Dont-DITCH-That-AI-with-Matt-Miller-e1v16v9"
+  },
+  {
+   "n": 39,
+   "title": "Breaking the Blockbuster Model with Nate Ridgway",
+   "type": "interview",
+   "date": "Feb 8, 2023",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode--39---Breaking-the-Blockbuster-Model-with-Nate-Ridgway-e1ulpce"
+  },
+  {
+   "n": 38,
+   "title": "Jump on the Wakelet Wave!",
+   "type": "news",
+   "date": "Feb 4, 2023",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode--38---Jump-on-the-Wakelet-Wave-e1uecoq"
+  },
+  {
+   "n": 37,
+   "title": "ChatGPT - How AI Could Potentially Transform Education?",
+   "type": "news",
+   "date": "Jan 27, 2023",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode--37---ChatGPT---How-AI-Could-Potentially-Transform-Education-e1u3l44"
+  },
+  {
+   "n": 36,
+   "title": "Will Jackson - CEO & Co-Founder of Mote & Conker",
+   "type": "interview",
+   "date": "Jan 19, 2023",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode--36---Will-Jackson---CEO--Co-Founder-of-Mote--Conker-e1tngur"
+  },
+  {
+   "n": 35,
+   "title": "Inner vs. Outer Scorecard",
+   "type": "news",
+   "date": "Jan 10, 2023",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode--35---Inner-vs--Outer-Scorecard-e1tahfu"
+  },
+  {
+   "n": 34,
+   "title": "GIF Master - Jake Miller",
+   "type": "interview",
+   "date": "Dec 23, 2022",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode--34---GIF-Master---Jake-Miller-e1sl22b"
+  },
+  {
+   "n": 33,
+   "title": "Alexa? Google? Siri? Nope, It's Chat GPT!",
+   "type": "news",
+   "date": "Dec 15, 2022",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode--33---Alexa--Google--Siri--Nope--Its-Chat-GPT-e1saig8"
+  },
+  {
+   "n": 32,
+   "title": "Protect Your Identify with FBI John",
+   "type": "news",
+   "date": "Dec 12, 2022",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode-32---Protect-Your-Identify-with-FBI-John-e1s50mf"
+  },
+  {
+   "n": 31,
+   "title": "Misfit Educator Jon Redeker",
+   "type": "interview",
+   "date": "Nov 22, 2022",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode-31---Misfit-Educator-Jon-Redeker-e1r438o"
+  },
+  {
+   "n": 30,
+   "title": "3D Printing & Mini Stem Kits with Boxlight, & Special Guest Paul Rubeo",
+   "type": "news",
+   "date": "Nov 21, 2022",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode-30---3D-Printing--Mini-Stem-Kits-with-Boxlight---Special-Guest-Paul-Rubeo-e1r3g7i"
+  },
+  {
+   "n": 29,
+   "title": "Class Tech Tips with Dr. Monica Burns",
+   "type": "interview",
+   "date": "Nov 20, 2022",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode-29---Class-Tech-Tips-with-Dr--Monica-Burns-e1r2be9"
+  },
+  {
+   "n": null,
+   "title": "Live at NYSCATE Kickoff 2022",
+   "type": "live",
+   "date": "Nov 20, 2022",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Live-at-NYSCATE-Kickoff-2022-e1r21n6"
+  },
+  {
+   "n": 28,
+   "title": "Not For Tech's Sake!",
+   "type": "news",
+   "date": "Nov 17, 2022",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode-28---Not-For-Techs-Sake-e1qokh5"
+  },
+  {
+   "n": 27,
+   "title": "This, That & Cutting the Cord!",
+   "type": "news",
+   "date": "Nov 7, 2022",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode--27---This--That--Cutting-the-Cord-e1qcjh5"
+  },
+  {
+   "n": 26,
+   "title": "Guess Who's Back..",
+   "type": "news",
+   "date": "Oct 28, 2022",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode--26---Guess-Whos-Back-e1ptam9"
+  },
+  {
+   "n": 25,
+   "title": "Drums Please!",
+   "type": "news",
+   "date": "May 26, 2022",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode-25---Drums-Please-e1j3vuv"
+  },
+  {
+   "n": 24,
+   "title": "Curve Ball",
+   "type": "news",
+   "date": "May 19, 2022",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode-24---Curve-Ball-e1infgb"
+  },
+  {
+   "n": 23,
+   "title": "Math Tools & More!",
+   "type": "news",
+   "date": "May 9, 2022",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode-23---Math-Tools--More-e1i9t2g"
+  },
+  {
+   "n": 22,
+   "title": "Matt Miller - EfficienTEACH",
+   "type": "interview",
+   "date": "Apr 28, 2022",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode-22---Matt-Miller---EfficienTEACH-e1hoohj"
+  },
+  {
+   "n": 21,
+   "title": "Matt Miller Part Deux - Tech Like a Pirate",
+   "type": "interview",
+   "date": "Apr 22, 2022",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode-21---Matt-Miller-Part-Deux---Tech-Like-a-Pirate-e1hh52a"
+  },
+  {
+   "n": 7,
+   "title": "REPLAY Episode #7 - Project Based Learning!",
+   "type": "news",
+   "date": "Apr 7, 2022",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/REPLAY-Episode-7---Project-Based-Learning-e1ggrup"
+  },
+  {
+   "n": 20,
+   "title": "Maverick Educator Matt Miller",
+   "type": "interview",
+   "date": "Mar 31, 2022",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode-20---Maverick-Educator-Matt-Miller-e1ggrhf"
+  },
+  {
+   "n": 19,
+   "title": "Vinyl, 8-Tracks & Canva!",
+   "type": "news",
+   "date": "Mar 24, 2022",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode--19---Vinyl--8-Tracks--Canva-e1ftoig"
+  },
+  {
+   "n": 18,
+   "title": "Choices: That's The Way It Is",
+   "type": "news",
+   "date": "Mar 18, 2022",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode-18---Choices-Thats-The-Way-It-Is-e1ftnq6"
+  },
+  {
+   "n": 17,
+   "title": "Wordle Craze & SAMR",
+   "type": "news",
+   "date": "Mar 10, 2022",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode-17---Wordle-Craze--SAMR-e1fhimq"
+  },
+  {
+   "n": 16,
+   "title": "Ch, Ch, Ch, Choices!",
+   "type": "news",
+   "date": "Mar 2, 2022",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode-16---Ch--Ch--Ch--Choices-e1f59vi"
+  },
+  {
+   "n": 15,
+   "title": "Tool Time School Edition",
+   "type": "news",
+   "date": "Feb 10, 2022",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode-15---Tool-Time-School-Edition-e1e7hhg"
+  },
+  {
+   "n": 14,
+   "title": "The Mote Boat",
+   "type": "news",
+   "date": "Feb 3, 2022",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode-14---The-Mote-Boat-e1drk6h"
+  },
+  {
+   "n": 13,
+   "title": "Sketch, Sketch It Up!",
+   "type": "news",
+   "date": "Jan 27, 2022",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode-13---Sketch--Sketch-It-Up-e1di16p"
+  },
+  {
+   "n": 12,
+   "title": "Video & the Radio Star",
+   "type": "news",
+   "date": "Jan 21, 2022",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode-12---Video--the-Radio-Star-e1d9a5o"
+  },
+  {
+   "n": 11,
+   "title": "Blockbuster or Netflix?",
+   "type": "news",
+   "date": "Jan 14, 2022",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode-11---Blockbuster-or-Netflix-e1cv8bf"
+  },
+  {
+   "n": 10,
+   "title": "Efficient & Effective in 2022",
+   "type": "news",
+   "date": "Jan 7, 2022",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode-10---Efficient--Effective-in-2022-e1cjt00"
+  },
+  {
+   "n": 9,
+   "title": "Wrapping up 2021 & Mini-PBL!",
+   "type": "news",
+   "date": "Dec 23, 2021",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode-9---Wrapping-up-2021--Mini-PBL-e1c2dfi"
+  },
+  {
+   "n": 8,
+   "title": "Wakelet Part Deux",
+   "type": "news",
+   "date": "Dec 16, 2021",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode-8-Wakelet-Part-Deux-e1bp2m3"
+  },
+  {
+   "n": 3,
+   "title": "**REPLAY** Episode # 3",
+   "type": "news",
+   "date": "Dec 9, 2021",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/REPLAY-Episode--3-e1bg6f3"
+  },
+  {
+   "n": null,
+   "title": "BONUS - Live at NYSCATE 2021 #2",
+   "type": "live",
+   "date": "Nov 22, 2021",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/BONUS---Live-at-NYSCATE-2021-2-e1am1qe"
+  },
+  {
+   "n": null,
+   "title": "BONUS - Live at NYSCATE 2021 #1",
+   "type": "live",
+   "date": "Nov 21, 2021",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/BONUS---Live-at-NYSCATE-2021-1-e1ak8bd"
+  },
+  {
+   "n": 7,
+   "title": "PBL, Not PB & J!",
+   "type": "news",
+   "date": "Nov 18, 2021",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode-7---PBL--Not-PB--J-e1af14g"
+  },
+  {
+   "n": 6,
+   "title": "The Power of Podcasting & Audio",
+   "type": "news",
+   "date": "Nov 9, 2021",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode-6---The-Power-of-Podcasting--Audio-e1a15sd"
+  },
+  {
+   "n": 5,
+   "title": "Wakelet, AR & Ready for Primetime!",
+   "type": "news",
+   "date": "Nov 1, 2021",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode-5---Wakelet--AR--Ready-for-Primetime-e19ke61"
+  },
+  {
+   "n": 4,
+   "title": "The Struggle is Real",
+   "type": "news",
+   "date": "Oct 22, 2021",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode-4---The-Struggle-is-Real-e195sqq"
+  },
+  {
+   "n": 3,
+   "title": "Continuous Improvement is Better Than Delayed Perfection",
+   "type": "news",
+   "date": "Oct 15, 2021",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode-3---Continuous-Improvement-is-Better-Than-Delayed-Perfection-e18rjf0"
+  },
+  {
+   "n": 2,
+   "title": "SEL - Knowing Your Why to Make Your What More Impactful",
+   "type": "news",
+   "date": "Oct 8, 2021",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode-2---SEL---Knowing-Your-Why-to-Make-Your-What-More-Impactful-e18feh9"
+  },
+  {
+   "n": 1,
+   "title": "Organizing is a Journey, not a Destination.",
+   "type": "news",
+   "date": "Sep 30, 2021",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Episode-1---Organizing-is-a-Journey--not-a-Destination-e184htj"
+  },
+  {
+   "n": 1,
+   "title": "Edventures in Tech Trailer",
+   "type": "news",
+   "date": "Sep 13, 2021",
+   "link": "https://podcasters.spotify.com/pod/show/andrew-nikola/episodes/Edventures-in-Tech-Trailer-e178pr6"
   }
  ]
 }
