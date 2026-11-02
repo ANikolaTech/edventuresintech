@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Edventures in Tech</title>
+<meta name="description" content="Edventures in Tech: useful ed tech news, tools, and ideas for K-12 educators, without the hype. Hosted by Andrew Nikola and Dan Roberto.">
+<meta property="og:title" content="Edventures in Tech"><meta property="og:description" content="Ed tech news, tools, and ideas for K-12 educators, without the hype.">
+<link rel="alternate" type="application/rss+xml" title="Edventures in Tech" href="https://anchor.fm/s/6f9d188/podcast/rss">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: broadcast "on air" board. A single signal-red line runs through the page like a waveform;
+   sections stack as segments of a show rundown. Brand tokens match the clip render kit. */
+:root{
+  --bg:#F6F3F2; --surface:#FFFFFF; --ink:#1A0F11; --muted:#6B5A5D; --line:#E4DADB;
+  --accent:#C23A3A; --accent-ink:#FFFFFF; --chip:#F1E6E6;
+  --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
+  --body:"Inter",ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0D0507; --surface:#170B0E; --ink:#EEEAEA; --muted:#B39FA2; --line:#2E1C20;
+  --accent:#D64545; --accent-ink:#FFFFFF; --chip:#24131A; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0D0507; --surface:#170B0E; --ink:#EEEAEA; --muted:#B39FA2; --line:#2E1C20;
+  --accent:#D64545; --accent-ink:#FFFFFF; --chip:#24131A; color-scheme:dark}
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:400 16px/1.6 var(--body);margin:0}
+a{color:inherit}
+.wrap{max-width:1080px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+h1,h2,h3{font-family:var(--display);line-height:1.05;text-wrap:balance;margin:0}
+.eyebrow{font:500 12px/1 var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
+
+/* header */
+header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding-block:12px}
+.mark{display:flex;align-items:center;gap:10px;text-decoration:none;font:800 18px/1 var(--display)}
+.dot{width:10px;height:10px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px color-mix(in srgb,var(--accent) 25%,transparent)}
+nav{display:flex;gap:18px;flex-wrap:wrap}
+nav a{text-decoration:none;font-size:14px;color:var(--muted)}
+nav a:hover{color:var(--ink)}
+@media (max-width:640px){nav{display:none}}
+
+/* hero */
+.hero{padding-block:56px 40px}
+.hero h1{font-size:clamp(40px,8vw,84px);font-weight:800;letter-spacing:-.02em;margin-top:14px}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.hero p.lede{font-size:clamp(17px,2.2vw,20px);max-width:58ch;color:var(--muted);margin:18px 0 0}
+.wave{display:block;width:100%;height:56px;margin-top:28px}
+.listen{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:11px 16px;border-radius:999px;border:1px solid var(--line);background:var(--surface);text-decoration:none;font-weight:600;font-size:15px}
+.btn.primary{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.btn:hover{border-color:var(--accent)}
+.meta-line{margin-top:14px;font:500 13px/1.4 var(--mono);color:var(--muted)}
+
+section{padding-block:44px;border-top:1px solid var(--line)}
+section h2{font-size:clamp(28px,4vw,40px);margin-top:10px}
+.sub{color:var(--muted);max-width:62ch;margin:10px 0 0}
+
+/* latest */
+.latest{display:grid;grid-template-columns:auto 1fr;gap:24px;align-items:start;margin-top:24px;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:24px}
+.epnum{font:800 64px/0.9 var(--display);color:var(--accent);font-variant-numeric:tabular-nums}
+.latest h3{font-size:clamp(22px,3vw,30px)}
+.latest ul{margin:12px 0 0;padding-left:18px;color:var(--muted)}
+.latest .listen{margin-top:18px}
+@media (max-width:560px){.latest{grid-template-columns:1fr}.epnum{font-size:48px}}
+
+/* guests */
+.guests{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;margin-top:24px}
+.guest{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.guest h3{font-size:20px}
+.guest .role{color:var(--muted);font-size:14px;margin:0}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:auto;padding-top:6px}
+.chip{font:500 12px/1 var(--mono);padding:7px 9px;border-radius:999px;background:var(--chip);text-decoration:none;font-variant-numeric:tabular-nums}
+.chip:hover{background:var(--accent);color:var(--accent-ink)}
+.guest.feature{border-color:var(--accent)}
+
+/* catalog */
+.tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-top:22px}
+.tools input{flex:1 1 240px;min-width:0;padding:11px 14px;border-radius:10px;border:1px solid var(--line);background:var(--surface);color:var(--ink);font:inherit}
+.seg{display:flex;flex-wrap:wrap;gap:6px}
+.seg button{font:500 13px/1 var(--body);padding:9px 12px;border-radius:999px;border:1px solid var(--line);background:transparent;color:var(--muted);cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.count{font:500 12px/1 var(--mono);color:var(--muted);margin-top:14px}
+ol.cat{list-style:none;margin:10px 0 0;padding:0;border-top:1px solid var(--line)}
+ol.cat li{display:grid;grid-template-columns:56px 1fr auto;gap:12px;align-items:baseline;padding:12px 4px;border-bottom:1px solid var(--line)}
+ol.cat .n{font:500 14px/1 var(--mono);color:var(--accent);font-variant-numeric:tabular-nums}
+ol.cat .t{min-width:0}
+ol.cat .t a{text-decoration:none;font-weight:500}
+ol.cat .t a:hover{text-decoration:underline;text-decoration-color:var(--accent)}
+ol.cat .tag{font:500 11px/1 var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);white-space:nowrap}
+.empty{padding:20px 4px;color:var(--muted)}
+
+/* hosts */
+.hosts{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:24px}
+.host{border-left:3px solid var(--accent);padding:4px 0 4px 16px}
+.host h3{font-size:24px}
+.host p{margin:8px 0 0;color:var(--muted)}
+.host .h{font:500 13px/1 var(--mono);color:var(--ink);margin-top:10px;display:inline-block;text-decoration:none}
+
+footer{border-top:1px solid var(--line);padding-block:28px 40px;color:var(--muted);font-size:14px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:12px 28px;justify-content:space-between}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+.wave path{stroke:var(--accent)}
+@media (prefers-reduced-motion:no-preference){.wave path{stroke-dasharray:2400;stroke-dashoffset:0;animation:draw 2.4s ease-out both}@keyframes draw{from{stroke-dashoffset:2400}to{stroke-dashoffset:0}}}
+
+:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+</style></head><body>
+<header class="top"><div class="wrap">
+  <a class="mark" href="#"><span class="dot" aria-hidden="true"></span>Edventures in Tech</a>
+  <nav aria-label="Sections"><a href="#latest">Latest</a><a href="#guests">Guests</a><a href="#episodes">All episodes</a><a href="#hosts">Hosts</a></nav>
+</div></header>
+
+<main id="top">
+<div class="wrap hero">
+  <div class="eyebrow">Podcast · Ed tech news, tools &amp; ideas</div>
+  <h1>Tech hard. Work smart. <em>Live an Edventure.</em></h1>
+  <p class="lede">Useful ed tech news, tools, and ideas you can use, without the hype. Two K-12 educators, Andrew Nikola and Dan Roberto, sort through what's new and what it means for your classroom.</p>
+  <svg class="wave" viewBox="0 0 1080 56" preserveAspectRatio="none" aria-hidden="true"><path fill="none" stroke-width="2" stroke-linecap="round" d="M0 28 H120 l10 -14 l10 28 l10 -22 l10 16 l10 -8 H330 l8 -20 l8 40 l8 -34 l8 26 l8 -12 H560 l6 -10 l6 20 l6 -16 l6 12 H760 l10 -22 l10 44 l10 -30 l10 18 H1080"/></svg>
+  <div class="listen">
+    <a class="btn primary" href="https://podcasts.apple.com/us/podcast/edventures-in-tech/id1586686713" target="_blank" rel="noopener">Apple Podcasts</a>
+    <a class="btn" href="https://open.spotify.com/show/28yNzzcbH6g4RHFGt0GXLL" target="_blank" rel="noopener">Spotify</a>
+    <a class="btn" href="https://bit.ly/ListenEdTech" target="_blank" rel="noopener">All platforms</a>
+  </div>
+  <div class="meta-line">New episodes about every two weeks · Thursdays, 2:00 PM ET · @ANikolaTech on Instagram, X &amp; YouTube</div>
+</div>
+
+<section id="latest"><div class="wrap">
+  <div class="eyebrow">On air now</div>
+  <h2>Latest episode</h2>
+  <div class="latest" id="latestCard"></div>
+</div></section>
+
+<section id="guests"><div class="wrap">
+  <div class="eyebrow">From the archive</div>
+  <h2>Conversations worth replaying</h2>
+  <p class="sub">Authors, coaches, and builders who have joined the show. Tap an episode number to listen or watch.</p>
+  <div class="guests" id="guestGrid"></div>
+</div></section>
+
+<section id="episodes"><div class="wrap">
+  <div class="eyebrow">Every episode</div>
+  <h2>The full catalog</h2>
+  <div class="tools">
+    <label for="q" class="eyebrow" style="position:absolute;left:-9999px">Search episodes</label>
+    <input id="q" type="search" placeholder="Search by topic, tool, or guest (try “AI” or “Canva”)" autocomplete="off">
+    <div class="seg" role="group" aria-label="Filter by type">
+      <button type="button" data-f="all" aria-pressed="true">All</button>
+      <button type="button" data-f="interview" aria-pressed="false">Interviews</button>
+      <button type="button" data-f="live" aria-pressed="false">Live at conferences</button>
+      <button type="button" data-f="news" aria-pressed="false">News &amp; tools</button>
+    </div>
+  </div>
+  <div class="count" id="count" aria-live="polite"></div>
+  <ol class="cat" id="cat"></ol>
+</div></section>
+
+<section id="hosts"><div class="wrap">
+  <div class="eyebrow">Your hosts</div>
+  <h2>Andrew &amp; Dan</h2>
+  <div class="hosts">
+    <div class="host"><h3>Andrew Nikola</h3><p>Brings a background in audio and radio. Focuses on how students use instructional technology and on redesigning classrooms into spaces students enjoy.</p><a class="h" href="https://bit.ly/ListenEdTech" target="_blank" rel="noopener">@ANikolaTech</a></div>
+    <div class="host"><h3>Dan Roberto</h3><p>Brings a curriculum development background, including work as an Understanding by Design trainer and Google Certified Educator. Focuses on using technology to redesign learning spaces.</p><span class="h">@wcsdtechdr on X</span></div>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <div>Edventures in Tech is independently owned. Opinions are the hosts' own.</div>
+  <div id="updated"></div>
+</div></footer>
+<script>
+(async function(){
+  const [C,E]=await Promise.all([fetch('config.json').then(r=>r.json()),fetch('episodes.json').then(r=>r.json())]);
+  const OLD='https://sites.google.com/wcsdny.org/edventuresintech/episodes/';
+  const season=n=>n<=25?1:n<=47?2:3;
+  const byNum={}; E.episodes.forEach(e=>{if(e.n)byNum[e.n]=e});
+  C.legacy.forEach(l=>{ if(!(l.n&&byNum[l.n])) E.episodes.push(l) });
+  function link(n,explicit){
+    if(explicit) return explicit;
+    if(n&&byNum[n]&&byNum[n].link) return byNum[n].link;
+    if(C.yt[n]) return 'https://www.youtube.com/watch?v='+C.yt[n];
+    if(C.slugs[n]) return OLD+'season-'+season(n)+'/'+C.slugs[n];
+    return 'https://bit.ly/ListenEdTech';
+  }
+  const el=(t,a={},kids=[])=>{const e=document.createElement(t);for(const k in a){if(k==='text')e.textContent=a[k];else e.setAttribute(k,a[k])}kids.forEach(c=>e.append(c));return e};
+  const L=E.episodes.filter(e=>e.n).sort((a,b)=>b.n-a.n)[0];
+  const lc=document.getElementById('latestCard'), body=el('div');
+  body.append(el('div',{class:'eyebrow',text:'Episode '+L.n+(L.date?' · '+L.date:'')}),el('h3',{text:L.title}));
+  const pts=C.highlights[L.n]; if(pts){const ul=el('ul');pts.forEach(p=>ul.append(el('li',{text:p})));body.append(ul)}
+  const ls=el('div',{class:'listen'});
+  ls.append(el('a',{class:'btn primary',href:L.link||'https://bit.ly/ListenEdTech',target:'_blank',rel:'noopener',text:'Listen now'}));
+  if(C.yt[L.n]) ls.append(el('a',{class:'btn',href:'https://www.youtube.com/watch?v='+C.yt[L.n],target:'_blank',rel:'noopener',text:'Watch on YouTube'}));
+  ls.append(el('a',{class:'btn',href:'https://podcasts.apple.com/us/podcast/edventures-in-tech/id1586686713',target:'_blank',rel:'noopener',text:'Apple'}));
+  body.append(ls); lc.append(el('div',{class:'epnum','aria-hidden':'true',text:L.n}),body);
+  const gg=document.getElementById('guestGrid');
+  C.guests.forEach(g=>{const c=el('div',{class:'guest'+(g.feature?' feature':'')});c.append(el('h3',{text:g.name}),el('p',{class:'role',text:g.role}));
+    const ch=el('div',{class:'chips'});g.eps.forEach(n=>ch.append(el('a',{class:'chip',href:link(n),target:'_blank',rel:'noopener','aria-label':g.name+', episode '+n,text:'Ep. '+n})));c.append(ch);gg.append(c)});
+  const TAG={interview:'Interview',live:'Live',news:'News & tools'};
+  const all=E.episodes.slice().sort((a,b)=>(b.n||0)-(a.n||0));
+  const cat=document.getElementById('cat'),q=document.getElementById('q'),count=document.getElementById('count');let f='all';
+  function render(){const term=q.value.trim().toLowerCase();
+    const rows=all.filter(e=>(f==='all'||e.type===f)&&(!term||(e.title+' '+TAG[e.type]+' '+(e.n||'')).toLowerCase().includes(term)));
+    cat.replaceChildren();
+    rows.forEach(e=>{const li=el('li');li.append(el('span',{class:'n',text:e.n?String(e.n).padStart(2,'0'):'·'}),el('span',{class:'t'},[el('a',{href:link(e.n,e.link),target:'_blank',rel:'noopener',text:e.title})]),el('span',{class:'tag',text:TAG[e.type]||''}));cat.append(li)});
+    if(!rows.length)cat.append(el('li',{class:'empty',text:'No episodes match. Try a tool name, a guest, or clear the filter.'}));
+    count.textContent=rows.length+' of '+all.length+' episodes'}
+  q.addEventListener('input',render);
+  document.querySelectorAll('.seg button').forEach(b=>b.addEventListener('click',()=>{f=b.dataset.f;document.querySelectorAll('.seg button').forEach(x=>x.setAttribute('aria-pressed',x===b?'true':'false'));render()}));
+  render(); document.getElementById('updated').textContent='Catalog updated '+E.updated+' from the podcast feed';
+})();
+</script></body></html>
